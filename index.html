@@ -27,9 +27,10 @@
   body {
       background: url('https://i.ibb.co/V0VY6LbK/b81c1c27b28c8a2b874b4236e6b933a1.jpg') no-repeat center center fixed;
       background-size: cover;
+      align-items: center;
       color: white;
       text-align: center;
-      align-item: center;
+      align-items: center;
       -webkit-tap-highlight-color: transparent;
     }
 
@@ -71,7 +72,7 @@
     top: 250px;
   }
   /*✅Animate Drop Down Menu*/
-  a {
+  a. {
     z-index: 100;
     text-overflow: none;
     text-decoration-line: none;
@@ -82,7 +83,7 @@
     font-family: 'Orbitron', sans-serif;
   }
   
-  a:active {
+  a:active. {
     transform: scale(1.3);
     color: red;
     background: rgba(255, 255, 255, 0);
@@ -230,7 +231,7 @@
   }
   .img-btn {
     border: 2px solid rgba(255, 255, 255, 0.2); 
-    border-radius: 3px;
+    border-radius: 3px 90px;
     background: rgba(255, 255, 255, 0.2);
     top: 250px;
     width: 750px;
@@ -263,19 +264,19 @@
 
   
   /*Position img*/
-  .position {
-    left: 900px;
-    top: 1000px;
-    font-size: 60px;
+  .position. {
+    left: 900.px;
+    top: 1000.px;
+    font-size: 20px;
     color: white;
-    background: black;
+    background: blue;
     border-radius: 5px 30px;
     border: 2px solid rgba(255, 255, 255, 0.2);
     font-family: 'Minecraft', sans-serif;
     text-shadow: 5px 5px 0px red;
   }
   
-  .position:hover {
+  .position {
     transform: scale(1.5);
     color: white;
     background: rgba(255, 255, 255, 0.2);
@@ -383,12 +384,11 @@
     color: lightblue;
     transition: all 0.9s ease;
     user-select: none;
-    width: 100px;
+    width: 1000px;
     font-family: 'Orbitron', sans-serif;
   }
   
-  a:active {
-    transform: scale(1.3);
+  a:active..... {
     color: red;
     background: rgba(255, 255, 255, 0);
     border-bottom: 2px solid rgba(255, 255, 255, 0);
@@ -419,7 +419,7 @@
   }
   
   h1 {
-    z-index: 5000;
+    z-index: 100%;
       font-family: 'Minecraft';
       text-shadow: 5px 5px 0px red;
       animation: texled 5s infinite linear;
@@ -542,6 +542,7 @@
     top: 250px;
     width: 750px;
     box-shadow: 0px 0px 30px navy;
+    animation: rgbGlow 15s infinite linear;
   }
   
   .img, animate-img-style {
@@ -570,26 +571,27 @@
 
   
   /*Position img*/
-  .position {
+  .position:hover {
     left: 900px;
     top: 1000px;
     font-size: 60px;
     color: white;
-    background: black;
     border-radius: 5px 30px;
-    border: 2px solid rgba(255, 255, 255, 0.2);
-    font-family: 'Minecraft', sans-serif;
-    text-shadow: 5px 5px 0px red;
+    border: 2px solid navy;
+    text-shadow: 10px 10px 0px black;
+    width: 900px;
+    background: none;
+    border: none;
   }
   
-  .position:hover {
-    transform: scale(1.5);
+  .position {
     color: white;
-    background: rgba(255, 255, 255, 0.2);
-    border: 2px solid rgba(255, 255, 255, 0.3);
-    font-size: 85px;
-    text-shadow: 0px 0px 35px black;
-    
+    text-align: center;
+    background: rgba(200, 200, 200, 0.2);
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    font-size: 50px;
+    text-shadow: 10px 10px 0px black;
+    animation: rgbGlow 3s infinite linear;
   }
   
   .logo {
@@ -643,8 +645,11 @@
   100% { transform: scale(1) transformX(100px); }
 }
     
-    .h1 {
-        
+    button {
+        z-index: -5000;
+    }
+    img {
+        z-index: -30;
     }
     @keyframes textled {
   0% {
@@ -666,20 +671,11 @@
 <body>
   
   <!--Header Style-->
-  <header class="glass-header">
-    <h1 class="led" style="font-size: 60px; z-index: 5000; text-align: center;">RG-KhmerServers</h1>
-  </header>
-
-  <div class="filter" style="word-spacing: 55px;">
-    <a href="#Channel">Channel</a>
-    <a href="#">Minecraft</a>
-    <a href="https://www.google.com/url?q=https%3A%2F%2Fwww.mediafire.com%2Ffile%2Fhkg0eke9rbpti68%2FMinecraft_1.21.62.01_Official.apk%2Ffile&sa=D&sntz=1&usg=AOvVaw2-lKX3jpsTK0VMcxYfAovz">Download</a>
-  </div>
-        <p>-</p>
-        <p style="font-size: 40px;">-</p>
+  
+        <p style="font-size: 15px;">-</p>
   
   <div class="logo">
-    <img src="https://i.ibb.co/Q7fRKJX5/1000341882-removebg-preview.png" style="height: 500px; width: 600px; z-index: 5500;">
+    <img src="https://i.ibb.co/23LJnfwx/Chat-GPT-Image-Jun-15-2025-01-20-12-PM.png" style="height: 500px; width: 600px; z-index: 5500;">
   </div>
   
       <nav style="text-align: center; font-size: 70px; word-spacing: 30px;" id="Server">
@@ -687,28 +683,28 @@
         <button class="img-btn">
           
         <img class="img" src="https://i.ibb.co/s9g7hKg1/1000341839-removebg-preview.png" style="height: 385px;">
-        <a class="position" href="minecraft://?addExternalServer=MAZER-CLUB|bedrock.mazerclub.net:25619">|Mazerclub|</a>
+        <a class="position" href="minecraft://?addExternalServer=MAZER-CLUB|bedrock.mazerclub.net:25619">Mazerclub</a>
 
         </button>
         <p>------------------------------</p>
         <button class="img-btn">
           
-        <img class="img" src="https://i.ibb.co/Rk6wzF79/Chat-GPT-Image-Jun-9-2025-09-30-37-PM.png" style="height: 410px;">
-        <a class="position" href="minecraft://?addExternalServer=ANGKOR-MC-STAR|AngkorMCstar.aternos.me:20923">|Angkorstar|</a>
+        <img class="img" src="https://i.ibb.co/Ld6vQYxp/Chat-GPT-Image-Jun-15-2025-06-55-20-PM.png" style="height: 600px;">
+        <a class="position" href="minecraft://?addExternalServer=DINO-MC|Dinomc.org:19132">Dino-MC</a>
 
         </button>
         <p>------------------------------</p>
         <button class="img-btn">
           
-        <img class="img" src="https://i.ibb.co/sXQMJy7/IMG-20250607-181607-012.jpg" style="height: 385px;">
-        <a class="position" href="minecraft://?addExternalServer=ANGKOR-SMP|angkorsmp.com:19132">|Angkor-Smp|</a>
+        <img class="img" src="https://i.ibb.co/tTdTqYJ8/IMG-20250615-190207.png" style="height: 385px;">
+        <a class="position" href="minecraft://?addExternalServer=ANGKOREK-SMP|Angkoreksmp.xyz:25389">Angkorek-Smp</a>
 
         </button>
         <p>------------------------------</p>
         <button class="img-btn" style=" left: 10px; right: 260px;">
           
         <img class="img" src="https://i.ibb.co/8gB6J0vc/logo.png" style="height: 545px;">
-        <a class="position" href="minecraft://?addExternalServer=MIKITA|MIKITAMC.ink:19213">|Mikita-MC|</a>
+        <a class="position" href="minecraft://?addExternalServer=MIKITA|MIKITAMC.ink:19213">Mikita-MC</a>
 
         </button>
         <p>------------------------------</p>
@@ -716,7 +712,7 @@
         <button class="img-btn" style=" left: 10px; right: 260px;">
           
         <img class="img" src="https://i.ibb.co/CpK8qX4w/1000341879-removebg-preview.png" style="height: 545px;">
-        <a class="position" href="minecraft://?addExternalServer=potatomc.lol:25565">|Potato-MC|</a>
+        <a class="position" href="minecraft://?addExternalServer=potatomc.lol:25565">Potato-MC</a>
 
         </button>
         <p>------------------------------</p>
@@ -727,9 +723,8 @@
   <img class="animate-img-style" src="https://i.ibb.co/NdVZ55Bt/20250611-184534.png" style="background: none; height: 550px;">
   
   </button>
-  
-    <footer style="text-shadow: 5px 5px 0px black; font-family: 'Minecraft', sans-serif; font-size: 10px;">
-    ©2025 RG MC. MINECRAFT SERVER CAMBODIA.
+    <footer style="text-shadow: 5px 5px 0px black; font-family: 'Minecraft', sans-serif; font-size: 20px;">
+    ©2025 RG-MC. MINECRAFT CAMBODIA SERVER.
   </footer>
 
 </body>
