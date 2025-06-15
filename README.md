@@ -1,1 +1,1 @@
-# RG-KhmerServers
+# RG-MC
